@@ -1,0 +1,85 @@
+Año,metrica,porcentaje
+2011,¿Los eSports son un deporte?,0.0
+2011,¿Presenta enaltación?,0.6
+2011,¿Medio especializado?,0.0
+2011,¿Presentan estereotipos?,0.2
+2011,¿Explica que son los eSports?,0.0
+2011,¿Presenta menosprecio?,0.4
+2011,¿Los eSports son necesarios o convenientes para la sociedad?,0.6
+2012,¿Los eSports son un deporte?,0.0
+2012,¿Presenta enaltación?,0.5714285714285714
+2012,¿Medio especializado?,0.14285714285714285
+2012,¿Presentan estereotipos?,0.0
+2012,¿Explica que son los eSports?,0.42857142857142855
+2012,¿Presenta menosprecio?,0.0
+2012,¿Los eSports son necesarios o convenientes para la sociedad?,0.42857142857142855
+2013,¿Los eSports son un deporte?,0.42857142857142855
+2013,¿Presenta enaltación?,0.7857142857142857
+2013,¿Medio especializado?,0.14285714285714285
+2013,¿Presentan estereotipos?,0.07142857142857142
+2013,¿Explica que son los eSports?,0.7857142857142857
+2013,¿Presenta menosprecio?,0.0
+2013,¿Los eSports son necesarios o convenientes para la sociedad?,0.6428571428571429
+2014,¿Los eSports son un deporte?,0.4
+2014,¿Presenta enaltación?,0.7
+2014,¿Medio especializado?,0.1
+2014,¿Presentan estereotipos?,0.0
+2014,¿Explica que son los eSports?,0.4
+2014,¿Presenta menosprecio?,0.0
+2014,¿Los eSports son necesarios o convenientes para la sociedad?,0.5
+2015,¿Los eSports son un deporte?,0.4375
+2015,¿Presenta enaltación?,0.5625
+2015,¿Medio especializado?,0.0625
+2015,¿Presentan estereotipos?,0.0
+2015,¿Explica que son los eSports?,0.5
+2015,¿Presenta menosprecio?,0.0
+2015,¿Los eSports son necesarios o convenientes para la sociedad?,0.4375
+2016,¿Los eSports son un deporte?,0.46153846153846156
+2016,¿Presenta enaltación?,0.6923076923076923
+2016,¿Medio especializado?,0.15384615384615385
+2016,¿Presentan estereotipos?,0.15384615384615385
+2016,¿Explica que son los eSports?,0.6153846153846154
+2016,¿Presenta menosprecio?,0.15384615384615385
+2016,¿Los eSports son necesarios o convenientes para la sociedad?,0.46153846153846156
+2017,¿Los eSports son un deporte?,0.36363636363636365
+2017,¿Presenta enaltación?,0.5909090909090909
+2017,¿Medio especializado?,0.045454545454545456
+2017,¿Presentan estereotipos?,0.045454545454545456
+2017,¿Explica que son los eSports?,0.5
+2017,¿Presenta menosprecio?,0.0
+2017,¿Los eSports son necesarios o convenientes para la sociedad?,0.3181818181818182
+2018,¿Los eSports son un deporte?,0.41379310344827586
+2018,¿Presenta enaltación?,0.6206896551724138
+2018,¿Medio especializado?,0.10344827586206896
+2018,¿Presentan estereotipos?,0.034482758620689655
+2018,¿Explica que son los eSports?,0.4827586206896552
+2018,¿Presenta menosprecio?,0.034482758620689655
+2018,¿Los eSports son necesarios o convenientes para la sociedad?,0.4482758620689655
+2019,¿Los eSports son un deporte?,0.2222222222222222
+2019,¿Presenta enaltación?,0.7777777777777778
+2019,¿Medio especializado?,0.3333333333333333
+2019,¿Presentan estereotipos?,0.05555555555555555
+2019,¿Explica que son los eSports?,0.6111111111111112
+2019,¿Presenta menosprecio?,0.05555555555555555
+2019,¿Los eSports son necesarios o convenientes para la sociedad?,0.6111111111111112
+2020,¿Los eSports son un deporte?,0.3
+2020,¿Presenta enaltación?,0.7
+2020,¿Medio especializado?,0.05
+2020,¿Presentan estereotipos?,0.1
+2020,¿Explica que son los eSports?,0.7
+2020,¿Presenta menosprecio?,0.0
+2020,¿Los eSports son necesarios o convenientes para la sociedad?,0.5
+2021,¿Los eSports son un deporte?,0.5238095238095238
+2021,¿Presenta enaltación?,0.8095238095238095
+2021,¿Medio especializado?,0.14285714285714285
+2021,¿Presentan estereotipos?,0.047619047619047616
+2021,¿Explica que son los eSports?,0.7619047619047619
+2021,¿Presenta menosprecio?,0.0
+2021,¿Los eSports son necesarios o convenientes para la sociedad?,0.47619047619047616
+2022,¿Los eSports son un deporte?,0.2631578947368421
+2022,¿Presenta enaltación?,0.7368421052631579
+2022,¿Medio especializado?,0.2631578947368421
+2022,¿Presentan estereotipos?,0.0
+2022,¿Explica que son los eSports?,0.631578947368421
+2022,¿Presenta menosprecio?,0.05263157894736842
+2022,¿Los eSports son necesarios o convenientes para la sociedad?,0.5789473684210527
