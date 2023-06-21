@@ -40,15 +40,13 @@ function MapaCalor2() {
 		.then((result) => {
 			setSeriesCalor2(Object.entries(result).map(([name, data]) => {
 				// reducir los decimales a 3 digitos
-				data = data.map((row: { [key: string]: any }) => {
-					row.y = Math.round(row.y * 1000) / 1000
-					return row;
-				})
 				// eliminar valores negativos intercambiandolos por 0
 				data = data.map((row: { [key: string]: any }) => {
 					if (row.y < 0) {
 						row.y = 0
 					}
+					row.y = row.y * 100
+					row.y = Math.round(row.y)
 					return row;
 				})
 				return {
@@ -60,7 +58,16 @@ function MapaCalor2() {
 			setOptionsCalor2({
 				chart: {
 					type: 'heatmap',
-					height: 350
+					height: 350,
+					background: '#212529',
+					forecolor: '#adb5bd',
+				},
+				theme:{
+					mode: 'dark',
+				},
+				title:{
+					text: 'Correlación entre los distintos indicadores referentes a los eSports',
+					align: 'left',
 				},
 				plotOptions: {
 					heatmap: {
@@ -71,19 +78,26 @@ function MapaCalor2() {
 							ranges: [
 								{
 									from: 0,
-									to: 0.30,
+									to: 30,
 									name: '<30%',
 									color: '#ADD8E6',
 									forecolor: '#ffffff'
 								},
 								{
-									from: 0.30,
-									to: 1,
+									from: 30,
+									to: 100,
 									name: '30% - 100%',
 									color: '#00008B'
 								}]
 						},
 					}
+				},
+				xaxis:{
+					labels:{
+						trim: true,
+						maxheight: 30,	
+					}
+					
 				},
 				responsive:[{
 					breakpoint: 750,
@@ -106,25 +120,17 @@ function MapaCalor2() {
 				}]			
 			})
 		})
-	}, [])
+	}, [pageName])
     return (
-        <div className="col-md-12">
-            <div className="card">
-                <div className="card-body">
-                    <div className="card-title">
-                        <h3>Correlación entre los distintos indicadores referentes a los eSports</h3>
-                    </div>
-                    <div className='mixed-chart'>
-                        <Chart
-                            options={optionsCalor2}
-                            series={seriesCalor2}
-                            type="heatmap"
-                            width="100%"
-							height="350px"
-                        />
-                    </div>
-                </div>
-            </div>
+        <div>
+			<Chart
+				options={optionsCalor2}
+				series={seriesCalor2}
+				type="heatmap"
+				width="100%"
+				height="450px"
+			/>
+			<small>Fuente: <a href="https://drive.google.com/file/d/1yOodqWG7G7pkT5PWyWFE3pDt5oqZtKmd/view?usp=sharing">Elaboración propia</a></small>
         </div>
 
     )

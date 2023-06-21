@@ -57,7 +57,12 @@ function MapaCalor1 (){
 			setOptionsCalor1({
 				chart: {
 					type: 'heatmap',
-					height: 350
+					height: 350,
+					background: '#212529',
+					forecolor: '#adb5bd',
+				},
+				theme:{
+					mode: 'dark',
 				},
 				plotOptions: {
 					heatmap: {
@@ -69,19 +74,19 @@ function MapaCalor1 (){
 								from: 0,
 								to: 33,
 								name: '<33%',
-								color: '#FF0000'
+								color: 'rgb(190, 210, 220)'
 							},
 							{
 								from: 33,
 								to: 66,
 								name: '33% - 66%',
-								color: '#128FD9'
+								color: 'rgb(124, 157, 197)'
 							},
 							{
 								from:66,
 								to: 100,
 								name: '>66%',
-								color: '#00A100'
+								color: 'rgb(107, 167, 129)'
 							}]
 						},
 
@@ -121,19 +126,17 @@ function MapaCalor1 (){
 				]
 			})
 		})
-	}, [])
+	}, [pageName])
     return(
-        <div className="col-12">
-            <div className="card">
-                <div className="card-body">
-                    <div className="card-title">
-                        <h3>Comportamiento de las métricas a través del tiempo</h3>
-                    </div>
-                    <div className="card-text">
-                        <Chart options={optionsCalor1} series={seriesCalor1} type='heatmap' height={350} id='MapaCalor'/>
-                    </div>
-                </div>
-            </div>
+        <div>
+			<Chart 
+				options={optionsCalor1}
+				series={seriesCalor1}
+				type='heatmap'
+				height='350px'
+				id='MapaCalor'
+			/>
+			<small>Fuente: <a href="https://drive.google.com/file/d/1NNfpjukthmyRm7ly7rP4zYdk-A5fhk4d/view?usp=sharing">Elaboración propia</a></small>
         </div>
     )
 }
