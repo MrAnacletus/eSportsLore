@@ -9,7 +9,7 @@ interface mapaCalor2{
 }
 
 async function loadCSVMapaCalor2(nombre:string): Promise<mapaCalor2[]> {
-	const response = await fetch('http://localhost:3000/datasets/'+nombre)
+	const response = await fetch('https://mranacletus.github.io/eSportsLore/datasets/'+nombre)
 	const parsed = papa.parse(await response.text(), { header: true })
 	const rows:mapaCalor2[] = parsed.data as unknown as mapaCalor2[]
 	return rows
