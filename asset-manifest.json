@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Memoria/static/css/main.81e156c2.css",
-    "main.js": "/Memoria/static/js/main.1572cc6e.js",
-    "static/js/787.ee63b678.chunk.js": "/Memoria/static/js/787.ee63b678.chunk.js",
-    "static/media/torneo.jpg": "/Memoria/static/media/torneo.497be79272c44d8a7f3f.jpg",
-    "static/media/background.jpg": "/Memoria/static/media/background.49b50a54982583105cb4.jpg",
-    "static/media/Shiphtur.jpg": "/Memoria/static/media/Shiphtur.d6a6184ab9f32e42ec99.jpg",
-    "index.html": "/Memoria/index.html",
-    "main.81e156c2.css.map": "/Memoria/static/css/main.81e156c2.css.map",
-    "main.1572cc6e.js.map": "/Memoria/static/js/main.1572cc6e.js.map",
-    "787.ee63b678.chunk.js.map": "/Memoria/static/js/787.ee63b678.chunk.js.map"
+    "main.css": "/eSportsLore/static/css/main.39081b10.css",
+    "main.js": "/eSportsLore/static/js/main.fb0decf9.js",
+    "static/js/787.ee63b678.chunk.js": "/eSportsLore/static/js/787.ee63b678.chunk.js",
+    "static/media/torneo.jpg": "/eSportsLore/static/media/torneo.497be79272c44d8a7f3f.jpg",
+    "static/media/background.jpg": "/eSportsLore/static/media/background.49b50a54982583105cb4.jpg",
+    "static/media/Shiphtur.jpg": "/eSportsLore/static/media/Shiphtur.d6a6184ab9f32e42ec99.jpg",
+    "index.html": "/eSportsLore/index.html",
+    "main.39081b10.css.map": "/eSportsLore/static/css/main.39081b10.css.map",
+    "main.fb0decf9.js.map": "/eSportsLore/static/js/main.fb0decf9.js.map",
+    "787.ee63b678.chunk.js.map": "/eSportsLore/static/js/787.ee63b678.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81e156c2.css",
-    "static/js/main.1572cc6e.js"
+    "static/css/main.39081b10.css",
+    "static/js/main.fb0decf9.js"
   ]
 }
