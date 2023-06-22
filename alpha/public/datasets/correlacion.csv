@@ -1,0 +1,37 @@
+Metrica1,Metrica2,valor
+¿Ausencia de estereotipos?,¿Ausencia de estereotipos?,1.0
+¿Ausencia de estereotipos?,¿Ausencia de menosprecio?,0.45491050541948386
+¿Ausencia de estereotipos?,¿Explica que son los eSports?,0.13087522057325057
+¿Ausencia de estereotipos?,¿Los eSports son necesarios o convenientes para la sociedad?,0.22836802386907715
+¿Ausencia de estereotipos?,¿Medio especializado en eSports?,0.023280575352089626
+¿Ausencia de estereotipos?,¿Presenta enaltación?,0.243809853379105
+¿Ausencia de menosprecio?,¿Ausencia de estereotipos?,0.45491050541948386
+¿Ausencia de menosprecio?,¿Ausencia de menosprecio?,1.0
+¿Ausencia de menosprecio?,¿Explica que son los eSports?,0.2261154833638722
+¿Ausencia de menosprecio?,¿Los eSports son necesarios o convenientes para la sociedad?,0.18952758208213982
+¿Ausencia de menosprecio?,¿Medio especializado en eSports?,-0.005018455851601985
+¿Ausencia de menosprecio?,¿Presenta enaltación?,0.22615538155094536
+¿Explica que son los eSports?,¿Ausencia de estereotipos?,0.13087522057325057
+¿Explica que son los eSports?,¿Ausencia de menosprecio?,0.2261154833638722
+¿Explica que son los eSports?,¿Explica que son los eSports?,1.0
+¿Explica que son los eSports?,¿Los eSports son necesarios o convenientes para la sociedad?,0.31633845772993585
+¿Explica que son los eSports?,¿Medio especializado en eSports?,-0.030945593686426194
+¿Explica que son los eSports?,¿Presenta enaltación?,0.40941134182973427
+¿Los eSports son necesarios o convenientes para la sociedad?,¿Ausencia de estereotipos?,0.22836802386907715
+¿Los eSports son necesarios o convenientes para la sociedad?,¿Ausencia de menosprecio?,0.18952758208213982
+¿Los eSports son necesarios o convenientes para la sociedad?,¿Explica que son los eSports?,0.31633845772993585
+¿Los eSports son necesarios o convenientes para la sociedad?,¿Los eSports son necesarios o convenientes para la sociedad?,1.0
+¿Los eSports son necesarios o convenientes para la sociedad?,¿Medio especializado en eSports?,0.18971988823957275
+¿Los eSports son necesarios o convenientes para la sociedad?,¿Presenta enaltación?,0.5301571745822723
+¿Medio especializado en eSports?,¿Ausencia de estereotipos?,0.023280575352089626
+¿Medio especializado en eSports?,¿Ausencia de menosprecio?,-0.005018455851601985
+¿Medio especializado en eSports?,¿Explica que son los eSports?,-0.030945593686426194
+¿Medio especializado en eSports?,¿Los eSports son necesarios o convenientes para la sociedad?,0.18971988823957275
+¿Medio especializado en eSports?,¿Medio especializado en eSports?,1.0
+¿Medio especializado en eSports?,¿Presenta enaltación?,0.16865594717881707
+¿Presenta enaltación?,¿Ausencia de estereotipos?,0.243809853379105
+¿Presenta enaltación?,¿Ausencia de menosprecio?,0.22615538155094536
+¿Presenta enaltación?,¿Explica que son los eSports?,0.40941134182973427
+¿Presenta enaltación?,¿Los eSports son necesarios o convenientes para la sociedad?,0.5301571745822723
+¿Presenta enaltación?,¿Medio especializado en eSports?,0.16865594717881707
+¿Presenta enaltación?,¿Presenta enaltación?,1.0
