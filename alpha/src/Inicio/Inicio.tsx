@@ -7,7 +7,8 @@ import imgTorneo from '../img/torneo.jpg';
 import HorarioInteractivo from '../Graficos/Horario';
 
 
-function Inicio(){
+
+function Inicio(props: any){
     const pageName = process.env.REACT_APP_PAGE_NAME
 	if (typeof(pageName)=="undefined") {
 		throw new Error("REACT_APP_PAGE_NAME is not set")
@@ -37,6 +38,14 @@ function Inicio(){
 			setSeriesHorario(data)
 		})
 	}, [seriesHorario,setSeriesHorario])
+
+	function cambiarPaginaInicio(origen: string, destino: string){
+		console.log("cambiando pagina");
+		console.log(origen);
+		console.log(destino);
+		props.pagina(origen, destino);
+	}
+
     return (
         <div className='contenido'>
 			<div className='headline'>
@@ -71,7 +80,7 @@ function Inicio(){
 						<div className="col-12 mt-3 col-sm-6">
 							<h3>¿Que son los eSports?</h3>
 							<p>
-								Los eSports, también conocidos como deportes electrónicos, son competencias de videojuegos que de desarrollan en un entorno profesional o semi-profesional, y que pueden ser disputados de manera individual o en equipos.
+								Los eSports, también conocidos como deportes electrónicos, son competencias de videojuegos que se desarrollan en un entorno profesional o semi-profesional, y que pueden ser disputados de manera individual o en equipos.
 								En estas competencias, jugadores de todo el mundo compiten entre si en diferentes juegos y plataformas, utiluzando habilidades motoras y estrategias para lograr la victoria. Aunque los eSports se desarrollan en el ambito virtual,
 								comparten muchas caracteristicas similares a los deportes tradicionales como la competencia, el intensivo entrenamiento, la dedicación y el trabajo en equipo.
 								A medida que los eSports han ganado popularidad, han demostrado ser mucho más que una forma de entretenimiento y han sido reconocidos como una forma legítima de competencia deportiva.
@@ -225,15 +234,14 @@ function Inicio(){
 							<div className="flourish-embed flourish-survey" data-src="visualisation/13633179"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 						</div>
 						<div className="col-12 mt-5 col-sm-6">
-							<h3>A traves de la historia</h3>
-						</div>
-						<div className="col-12 mt-3 col-sm-6">
-							<div className='flourish-embed flourish-chart' data-src='visualisation/14022919' dangerouslySetInnerHTML={{__html: `<script src="https://public.flourish.studio/resources/embed.js"></script>`}}/>
+							<h3>¿Que tan grande es la industria de los eSports?</h3>
+							<p>
+								Para finalizar este estudio, se presenta una visualización en la que se presenta la historia de los eSports, desde sus inicios hasta la actualidad. Explora la visualización y descubre como ha crecido la industria de los eSports.
+							</p>
 						</div>
 						<div className="col-12 mt-5 col-sm-6">
-							<h3>Comparación con deportes</h3>
 							<p>
-								Arriba hemos visto que los eSports
+								Presiona <button className="btn btn-link nav-link active" onClick={()=>{cambiarPaginaInicio(props.paginaActual,"Historico")}}>AQUI</button> para ver la visualización.
 							</p>
 						</div>
 						{/* <Dumbbell/> */}

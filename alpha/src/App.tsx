@@ -9,7 +9,7 @@ function App() {
 	var paginaRenderizada = <div></div>;
 	if (paginaActual === "Inicio"){
 		window.scrollTo(0, 0);
-		paginaRenderizada = <Inicio />;
+		paginaRenderizada = <Inicio pagina={cambiarPagina} paginaActual={paginaActual}/>;
 	}else if (paginaActual === "Sobre el Estudio"){
 		paginaRenderizada = <div></div>;
 	}else if (paginaActual === "Historico"){
