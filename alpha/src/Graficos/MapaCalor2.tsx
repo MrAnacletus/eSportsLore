@@ -59,15 +59,7 @@ function MapaCalor2() {
 				chart: {
 					type: 'heatmap',
 					height: 350,
-					background: '#212529',
 					forecolor: '#adb5bd',
-				},
-				theme:{
-					mode: 'dark',
-				},
-				title:{
-					text: 'Correlación entre los distintos indicadores referentes a los eSports',
-					align: 'left',
 				},
 				plotOptions: {
 					heatmap: {
@@ -80,57 +72,63 @@ function MapaCalor2() {
 									from: 0,
 									to: 30,
 									name: '<30%',
-									color: '#ADD8E6',
+									color: '#ccccff',
 									forecolor: '#ffffff'
 								},
 								{
 									from: 30,
 									to: 100,
 									name: '30% - 100%',
-									color: '#00008B'
+									color: '#000099'
 								}]
-						},
-					}
-				},
-				xaxis:{
-					labels:{
-						trim: true,
-						maxheight: 30,	
-					}
-					
-				},
-				responsive:[{
-					breakpoint: 750,
-					options: {
-						xaxis:{
-							labels:{
-								rotate: -90,
-								rotateAlways: true,
-								style : {
-									fontSize: '10px'
+							},
+						}
+					},
+					title:{
+						text: 'Correlación entre los distintos indicadores referentes a los eSports',
+						align: 'left',
+					},
+					xaxis:{
+						labels:{
+							trim: true,
+							maxheight: 30,
+						}
+					},
+					responsive:[{
+						breakpoint: 750,
+						options: {
+							xaxis:{
+								labels:{
+									rotate: -90,
+									rotateAlways: true,
+									style : {
+										fontSize: '10px'
+									}
+								}			
+							},
+							yaxis:{
+								labels:{
+									show: false,
 								}
-							}			
-						},
-						yaxis:{
-							labels:{
-								show: false,
 							}
 						}
-					}
-				}]			
-			})
+					}]			
+				}
+			)
 		})
 	}, [pageName])
     return (
         <div>
-			<Chart
-				options={optionsCalor2}
-				series={seriesCalor2}
-				type="heatmap"
-				width="100%"
-				height="450px"
-			/>
-			<small>Fuente: <a href="https://drive.google.com/file/d/1yOodqWG7G7pkT5PWyWFE3pDt5oqZtKmd/view?usp=sharing">Elaboración propia</a></small>
+			<div className="card">
+				<Chart
+					options={optionsCalor2}
+					series={seriesCalor2}
+					type="heatmap"
+					width="100%"
+					height="450px"
+				/>
+				<small className='text-dark'>Fuente: <a href="https://drive.google.com/file/d/1yOodqWG7G7pkT5PWyWFE3pDt5oqZtKmd/view?usp=sharing">Elaboración propia</a></small>
+			</div>
         </div>
 
     )

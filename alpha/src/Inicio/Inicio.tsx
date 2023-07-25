@@ -1,9 +1,9 @@
 import { useEffect,useState } from 'react';
-import background from '../img/background.jpg';
 import MapaCalor1 from '../Graficos/MapaCalor1';
 import MapaCalor2 from '../Graficos/MapaCalor2';
 import imgShiptur from '../img/Shiphtur.jpg';
 import imgTorneo from '../img/torneo.jpg';
+import imgTeclado from '../img/teclado.jpg';
 import HorarioInteractivo from '../Graficos/Horario';
 
 
@@ -69,7 +69,10 @@ function Inicio(props: any){
 							</p>
 						</div>
 						<div className="col-12 mt-3 col-sm-6 containerImagen">
-							<img className='imagen' src={background} alt="Imagen de eSports"/>
+							<img className='imagen' src={imgTeclado} alt="Imagen de eSports"/>
+							<div className='bajoIzquierda'>
+								Foto de <a href="https://unsplash.com/@isword?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Muha Ajjan</a> en <a href="https://unsplash.com/es/fotos/sL2BRR1cuvM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+							</div>
 						</div>
 						<div className="col-12 mt-3 col-sm-6 containerImagen">
 							<img className='imagen' src={imgTorneo} alt="Imagen de un torneo de eSports"/>
@@ -172,6 +175,48 @@ function Inicio(props: any){
 							<p>
 								En la siguiente visualización se muestra la cantidad de jugadores de eSports por país. Se puede ver que la mayoría de los jugadores de eSports se encuentran en Estados Unidos, China y Corea del Sur.
 								Sin embargo es indudable la presencia de jugadores de eSports en todo el mundo. Podemos ver también la totalidad de premios ganados por los jugadores de cada país, y se puede ver que Estados Unidos, China y Corea del Sur también lideran en este aspecto.
+							</p>
+						</div>
+						<div className="col-12 mt-3 col-sm-6">
+							<div
+								className='flourish-embed flourish-chart'
+								data-src='visualisation/14105301'
+								dangerouslySetInnerHTML={{__html: `<script src="https://public.flourish.studio/resources/embed.js"></script>`}}
+							/>
+						</div>
+						<div className="col-12 mt-3 col-sm-6">
+							<h3>¿De donde provienen los articulos de eSports?</h3>
+							<p>
+								En la siguiente visualización se muestran los diferentes paises de procedencia de los articulos pertenecientes al estudio, el tamaño de las palabras corresponde a la cantidad de articulos que provienen de ese país.
+								Se puede ver que la mayoría de los artículos provienen de España, Estados Unidos y Chile, seguidos de otros paises como México, Reino Unido y Australia.
+								<br />
+								<br />
+								Los paises de procedencia del estudio pueden estar relacionados con los paises que se nombran en el mismo, así como a los personajes y juegos que se mencionan en los artículos.
+								Por ejemplo, si se hiciera un estudio de articulos de deportes tradicionales, se podría esperar que la mayoría de los artículos provengan de Chile hablen de fútbol, y que la mayoría de los artículos de Estados Unidos hablen de fútbol americano o baloncesto.
+								<br />
+								<br />
+								¿Que pasará si comparamos los paises de procedencia de los artículos con los paises que son nombrados en los artículos?
+							</p>
+						</div>
+						<div className="col-12 mt-3 col-sm-6">
+							<div
+								className='flourish-embed flourish-chart'
+								data-src='visualisation/14023211'
+								dangerouslySetInnerHTML={{__html: `<script src="https://public.flourish.studio/resources/embed.js"></script>`}}
+							/>
+						</div>
+						<div className="col-12 mt-3 col-sm-6">
+							<h3>Paises mencionados en los artículos, ¿Cuál es la capital de los eSports?</h3>
+							<p>
+								En la visualización anterior se puede ver que los paises con más articulos son España, Estados Unidos y Chile, sin embargo, los paises más mencionados en los artículos son Estados Unidos, Chile y Corea del Sur, seguido en cuarto lugar de España.
+								¿De donde sale Corea del sur?
+								<br />
+								<br />
+								Corea del Sur es un pais asíatico que se ha destacado en los eSports, en especial en los juegos Starcraft y League of Legends. El país del este ha tenido una larga historia con los eSports, y es considerado la capital de los eSports.
+								<br />
+								<br />
+								Corea del Sur es <a href='https://thelawtree.akmllp.com/lawtitude/global-recognition-of-esports-and-laws-and-regulations-all-over-the-world/' target='_blank' rel='noreferrer'>pionero en legislación sobre eSports</a>, y es el primer país en reconocer a los jugadores de eSports como atletas en los años 2000, lo que les permite obtener visas de atletas y recibir beneficios del gobierno.
+								Es más, Corea del Sur es el primer país en tener un estadio dedicado a los eSports, el <a href='https://weplayholding.com/blog/esports-gaming-arenas-what-are-they-which-are-the-most-famous/' target='_blank' rel='noreferrer'>primer estadio de eSports de Seúl</a> en el distrito de Yongsan.
 							</p>
 						</div>
 						<div className="col-12 mt-5 col-sm-6">

@@ -38,42 +38,26 @@ function HorarioInteractivo (props: any){
                     enabled: false
                 },
                 forecolor: '#adb5bd',
+                fontFamily: 'sans-serif'
             },
             colors:[
-                '#0B3954','#9ED964','#E63946','#F2C94C','#FF9F1C','#808080'
+                '#2552A8','#46D85E','#BF0C05','#F7C928','#EBA222','#C0C0C0'
             ],
-            theme:{
-                mode: 'dark',
-            },
             title: {
                 text: 'Distribución de entrenamiento',
-                style:{
-                    color: '#adb5bd',
-                }
             },
             subtitle:{
                 text: 'Comparación con un deportista profesional y un profesional de eSports, junto con un horario del usuario.',
-                style:{
-                    fontSize: '14px',
-                    color: '#adb5bd',
-                }
             },
             xaxis: {
                 categories: ['Triatleta', 'eSports', 'Tú'],
                 style:{
-                    fontSize: '14px',
-                    color: '#adb5bd',
-                    fontFamily: 'Roboto'
+                    fontSize: '14px'
                 }
             },
             yaxis: {
                 title: {
-                    text: undefined
-                },
-                style:{
-                    fontSize: '14px',
-                    color: '#adb5bd',
-                    fontFamily: 'Roboto'
+                    text: 'Horas dedicadas',
                 },
                 max: function(max: number){
                     return max
@@ -120,9 +104,11 @@ function HorarioInteractivo (props: any){
     }, [props])
     return (
         <div>
-            <Chart options={optionsHorario} series={seriesHorario} type="bar" height={390} />
-            {/* controles del usuario */}
-            <small>Fuentes: <a href='https://www.feutri.org/dime-cuantas-horas-entrenas-y-te-contare-algunas-cosas/' target='_blank' rel='noreferrer'>Horario Triatleta</a>, <a href='https://blog.bodog.com/es/como-entrena-jugador-esports/' target='_blank' rel='noreferrer'>Horario eSports</a></small>
+            <div className="card">
+                <Chart options={optionsHorario} series={seriesHorario} type="bar" height={390} />
+                {/* controles del usuario */}
+                <small className='text-dark'>Fuentes: <a href='https://www.feutri.org/dime-cuantas-horas-entrenas-y-te-contare-algunas-cosas/' target='_blank' rel='noreferrer'>Horario Triatleta</a>, <a href='https://blog.bodog.com/es/como-entrena-jugador-esports/' target='_blank' rel='noreferrer'>Horario eSports</a></small>
+            </div>
         </div>
     )
 }
