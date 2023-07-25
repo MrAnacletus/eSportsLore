@@ -84,10 +84,6 @@ function MapaCalor2() {
 							},
 						}
 					},
-					title:{
-						text: 'Correlación entre los distintos indicadores referentes a los eSports',
-						align: 'left',
-					},
 					xaxis:{
 						labels:{
 							trim: true,
@@ -120,6 +116,9 @@ function MapaCalor2() {
     return (
         <div>
 			<div className="card">
+				<div className = "card-header text-black" style={{backgroundColor:'white',font:'Source Sans Pro', fontSize:'1.3rem', lineHeight: '1.2', fontWeight: 'bold', color: 'rgb(51, 51, 51)', margin: '0px', paddingTop: '0rem'}}>
+					Correlación entre los distintos indicadores referentes a los eSports
+				</div>
 				<Chart
 					options={optionsCalor2}
 					series={seriesCalor2}

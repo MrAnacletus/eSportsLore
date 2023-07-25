@@ -76,12 +76,14 @@ function Historico(){
                         En 1972, se celebró el primer torneo de videojuegos de la historia, en la Universidad de Stanford. El juego elegido fue Spacewar, un juego de naves espaciales, en el que los jugadores debían destruirse entre sí.
                         El premio para el ganador fue una suscripción a la revista Rolling Stone. Este evento constituyó el primer paso para la creación de los eSports.
                         <br/> <br/>
-                        En la presente visualización se muestra la historia de los eSports, desde su creación hasta la actualidad, pasando por los diferentes juegos que han sido parte de la historia de los eSports.
-                        Los juegos están ordenados según las inspiraciones que tuvieron para su creación, y se muestran juegos que han sido parte de los eSports, han sido seleccionados a partir de las apariciones que han tenido en la investigación
+                        En la visualización se muestra la historia de los eSports, desde su creación hasta la actualidad, pasando por los diferentes juegos que han sido parte de la historia de los eSports.
+                        Los juegos están ordenados según las inspiraciones que tuvieron para su creación, y se muestran juegosque forman parte de los eSports, seleccionados a partir de las apariciones que han tenido en la investigación
                         realizada para este proyecto.
                         <br/> <br/>
-                        Para navegar por la visualización, has <b className='text-black'>zoom con la rueda del ratón</b>, y <b className='text-black'>mueve la visualización manteniendo pulsado el botón izquierdo del ratón y arrastraló</b>, navega por el mapa y descubre las inspiraciones de los juegos aquí mostrados.
+                        Para navegar por la visualización, has <b className='text-black'>zoom con la rueda del ratón</b>, y <b className='text-black'>mueve la visualización manteniendo pulsado el botón izquierdo del ratón y 
+                        arrastrandoló dentro del marco</b>, navega por el mapa y descubre las inspiraciones de los juegos aquí mostrados.
                     </p>
+                    <h5>Visualización 10</h5>
                     <div className="card-body border" id='svgContainer'>
                         <svg contentScriptType="text/ecmascript" width="100%" id='svgMap'
                         xmlnsXlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
@@ -4447,13 +4449,13 @@ function Historico(){
             </div>
             <div className="container mt-3 row">
                 <div className="col-12 col-sm-12">
-                    <p className="fs-1">Eventos historicos</p>
+                    <p className="fs-1">Eventos históricos</p>
                 </div>
                 <div className="col-12 mt-3 col-sm-12">
                     <h3>Eventos importantes</h3>
                         <p>
-                            <strong>¿Qué eventos importantes se pueden destacar?</strong>
-                            En la siguiente sección se destacaran algunos de los eventos más importantes que se pueden observar en la visualización, así como también de las visualizaciones de la página de inicio.
+                            <strong>¿Qué eventos importantes se pueden destacar?</strong><br />
+                            En la siguiente sección se destacarán algunos de los eventos más importantes que se pueden observar en la visualización, así como también de las visualizaciones de la página de inicio.
                         </p>
                 </div>
                 <div className="col-12 mt-3 col-sm-6">
@@ -4475,10 +4477,13 @@ function Historico(){
                         <br/>
                         <br/>
                         La importancia del género se debe a la gran cantidad de jugadores, torneos y espectadores en todo el mundo que tienen estos juegos. En particular el juego <strong>DotA 2</strong> es el juego 
-                        que más dinero ha repartido en premios en torneos de eSports, con un total de <strong>318 millones de dólares</strong> y un total de 4711 jugadores que han ganado algún premio reportados, mientras que en 4° lugar se encuentra <strong>League of Legends</strong>, con 102 millones de dolares y 9000 jugdores reportados. Fuente: <a href="https://www.esportsearnings.com/games" target="_blank" rel="noreferrer">eSports Earnings</a>
+                        que más dinero ha repartido en premios en torneos de eSports, con un total de <strong>318 millones de dólares</strong> y un total de 4711 jugadores que han ganado algún premio reportados, mientras que en cuarto 
+                        lugar se encuentra <strong>League of Legends</strong>, con 102 millones de dólares y 9000 jugdores reportados. 
+                        Fuente: <a href="https://www.esportsearnings.com/games" target="_blank" rel="noreferrer">eSports Earnings</a>
                         <br/>
                         <br/>
-                        Además estos juegos fueron parte de los juegos más nombrados en el estudio de artículos, siendo League of Legends el más nombrado con 474 menciones, mientras que DotA 2 se encuentra en 3° lugar con 146 menciones.
+                        Además estos juegos fueron parte de los juegos más nombrados en el estudio de artículos, siendo League of Legends el más nombrado con 474 menciones, mientras que DotA 2 se encuentra en tercer 
+                        lugar con 146 menciones.
                     </p>
                 </div>
                 <div className="col-12 mt-3 col-sm-6">
@@ -4502,14 +4507,17 @@ function Historico(){
                         <br/>
                         <br/>
                         Esta organización fue fundada en el año 2002, y desde entonces ha organizado torneos de varios juegos, entre los cuales se destacan los juegos de la saga <strong>Call of Duty</strong>, 
-                        los cuales son una de las franquicias más nombradas en los artículos con 91 menciones como franquicia.
-                        La relación de entre la organización MLG y la franquicia de Call of Duty data desde el año 2009, cuando se organizó el primer torneo de Call of Duty, el cual fue el <strong><a href='https://cod-esports.fandom.com/wiki/MLG_National_Championship_2009' target='_blank' rel='noreferrer'>MLG National Championship 2009</a></strong>.
+                        los cuales son una de los videojuegos más nombradas en los artículos con 91 menciones.
+                        La relación de entre la organización MLG y la saga de Call of Duty data desde el año 2009, cuando se organizó el primer torneo de Call of Duty, el cual fue el 
+                        <strong><a href='https://cod-esports.fandom.com/wiki/MLG_National_Championship_2009' target='_blank' rel='noreferrer'>MLG National Championship 2009</a></strong>.
                         <br/>
                         <br/>
-                        Durante estos años aparecieron nombres como <a href='https://cod-esports.fandom.com/wiki/Nadeshot' target='_blank' rel='noreferrer'>Nadeshot</a>, actual fundador de la organización de eSports 100 Thieves y LA Thieves.
+                        Durante estos años aparecieron nombres como <a href='https://cod-esports.fandom.com/wiki/Nadeshot' target='_blank' rel='noreferrer'>Nadeshot</a>, actual fundador de la organización de 
+                        eSports 100 Thieves y LA Thieves.
                         <br/>
                         <br/>
-                        En la actualidad, la franquicia de Call of Duty es una de las franquicias más importantes de los eSports, y la MLG es una de las organizaciones más importantes de eSports, debido al gran impulso que dieron a los eSports en sus inicios y a las grandes audiencias que tuvieron sus torneos.
+                        En la actualidad, la franquicia de Call of Duty es una de las franquicias más importantes de los eSports, y la MLG es una de las organizaciones más importantes de eSports, debido al 
+                        gran impulso que dieron a los eSports en sus inicios y a las grandes audiencias que tuvieron sus torneos.
                     </p>
                 </div>
                 <div className="col-12 mt-3 col-sm-6">

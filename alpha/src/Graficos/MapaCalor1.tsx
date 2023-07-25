@@ -88,17 +88,10 @@ function MapaCalor1 (){
 
 					}
 				},
-                title:{
-                    text: 'Porcentaje de artículos que se ajustan a cada métrica, a través del tiempo',
-					align: 'left',
-                },
 				responsive: [
 					{
 						breakpoint: 750,
 						options: {
-							title: {
-								text: "Porcentaje de artículos por métrica"
-							},
 							dataLabels: {
 								enabled: false
 							},
@@ -126,6 +119,7 @@ function MapaCalor1 (){
     return(
         <div>
 			<div className="card">
+				<div className = "card-header text-black" style={{backgroundColor:'white',font:'Source Sans Pro', fontSize:'1.3rem', lineHeight: '1.2', fontWeight: 'bold', color: 'rgb(51, 51, 51)', margin: '0px', paddingTop: '0rem'}}>Porcentaje de artículos que se ajustan a cada métrica, a través del tiempo</div>
 				<Chart 
 					options={optionsCalor1}
 					series={seriesCalor1}
